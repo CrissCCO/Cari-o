@@ -1,0 +1,114 @@
+/*  COMANDOS
+ float :left; /* MUEVE TODO A LA IZQUIERDA
+body{Margin: 0;} ELIMINAR MARGEN*/
+body{
+	margin: 0;
+}
+
+#container{
+	width: 800px;
+	height: 700px;
+	background-color: gray;
+	margin: 0 auto; /* CENTRAR */
+}
+
+#container #header{
+	width: auto;
+	height: 100px;
+	background-color: gray;
+}
+
+#container #header #logo{
+	width: auto;
+	height: 50px;
+	background-color: firebrick;
+}
+
+#container #header #menu{
+	width: auto;
+	height: 50px;
+	background-color: gold;
+    
+}
+
+#container #header #menu .boton{
+	width: 100px;
+	height: 50px;
+	background-color: white;
+    float :left; /* MUEVE TODO A LA IZQUIERDA */
+}
+
+
+
+#container #main{
+	width: auto;
+	height: 400px;
+	background-color: pink;
+}
+
+#container #main #logo_main{
+    width: 266px;
+    height: 200px;
+    background-color: orange;
+}
+
+#container #main #con_main{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+#container #main #con_main #info_main{
+    width: auto;
+    height: 150px;
+    background-color: cyan;  
+}
+
+#container #main #con_main #boton_main{
+    width: auto;
+    height: 50px;
+    background-color: blue ;  
+}
+
+
+
+#container #news{
+	width: auto;
+	height: 150px;
+	background-color: skyblue;
+}
+
+#container #news .col{
+    width: 266px;
+    height: 150px;
+    background-color: rebeccapurple;
+    float: left;
+}
+
+#container #news .col .col_img{
+    width: 233px;
+    height: 120px;
+    background-color: black;
+}
+
+#container #news .col .col_img .col_info{
+    width: auto;
+    height: 90px;
+}
+
+#container #news .col .col_img .col_boton{
+    width: auto;
+    height: 30px;
+    background-color: white;
+    
+}
+
+
+
+
+
+#container #footer{
+	width: auto;
+	height: 50px;
+	background-color: brown;
+}
